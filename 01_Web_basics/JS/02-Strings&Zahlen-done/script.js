@@ -16,7 +16,7 @@ result = c + d;
  console.log(result);
 
 // Texte STRINGS
-let name = "Andreas";
+let name = "Beyza";
 console.log(name);
 
-console.log("Das Ergebnis von ")
+console.log("Das Ergebnis von " + a +" und " + b + " ist " + abc);
