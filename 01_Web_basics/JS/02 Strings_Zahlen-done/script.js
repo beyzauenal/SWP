@@ -15,8 +15,9 @@ let d = 7.5;
 result = c + d;
  console.log(result);
 
-// Texte STRINGS
+ // Texte STRINGS
 let name = "Beyza";
 console.log(name);
 
-console.log("Das Ergebnis von " + a +" und " + b + " ist " + abc);
+console.log("Das Ergebnis von " + a +" und " + b + " ist " + result);
+
