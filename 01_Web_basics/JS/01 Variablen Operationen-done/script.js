@@ -16,5 +16,6 @@ console.log("a+b= " +c);
 //Rechnungsarten
 // *, /, +, -
 
+cvbxfgh
 c= b-a;
 console.log("b-a= " +c);
