@@ -19,10 +19,6 @@ console.log(result);
 
 
 
-
-
-
-
 let a = Apple;
 
 //Meine Ergebnise
