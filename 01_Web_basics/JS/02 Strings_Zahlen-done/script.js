@@ -21,3 +21,4 @@ console.log(name);
 
 console.log("Das Ergebnis von " + a +" und " + b + " ist " + result);
 
+sdha
