@@ -36,3 +36,19 @@ let zahl2 = 60;
 if (zahl1 < 50 && zahl2 !== 50) {
   console.log("Erste Zahl klein, zweite kein 50iger");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
