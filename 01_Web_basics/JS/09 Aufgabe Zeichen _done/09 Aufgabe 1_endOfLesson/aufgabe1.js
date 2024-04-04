@@ -20,6 +20,12 @@ for (let i = 0; i < inputs.length; i++) {
 
   const number = parseInt(inputs[i]); 
 
+  if(number %2 === 0){
+    output = output + number
+  } else {
+    output = putput * number;
+  }
+
 } 
 
 // Write an answer using console.log() 
