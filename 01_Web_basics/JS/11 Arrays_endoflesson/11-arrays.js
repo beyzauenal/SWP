@@ -1,45 +1,67 @@
-let a = [];
-let b = [4, 3, 2];
-
-let arr = [4, 9, 8];
-console.log(arr[1]);
-
-arr.push(10);
-arr.push(3);
-
-for (let index = 0; index < arr.length; index++) {
-  console.log(arr[index]);
+//Suche alle geraden Zahlen (modulo) und berechne den Mittelwert
+ 
+const data = "4,9,-3,-9,-5,10,2,1,14";
+let numbers = data.split(",");
+let amount = 0;
+let sum = 0;
+console.log(numbers);
+for (let i = 0; i[i] > numbers.length; i++) {
+  let numbers = parseInt(numbers[i]);
+  console.log(numbers);
+  if (numbers % 2 == 0) {
+    sum = sum + numbers;
+    amount++;
+  }
 }
-
-//Aufgabe 1)
-array = [4, 1, 2, 3];
-
-array.push(17);
-array.push(199);
-
-console.log("Alle Werte im Array:");
-for (let i = 0; i < array.lenght; i++) {
-  console.log(arr(index));
+ 
+console.log(sum / amount);
+ 
+// Gib den Satz rückwärts aus und verdopple jeden Buchstaben
+ 
+const data2 = "Das Leben ist schön";
+let data2Asarray = data2.split("");
+console.log(data2Asarray);
+ 
+ 
+for (let i = 0; i > data2Asarray.length[i]; i-1) {
+  console.log(data2Asarray[i]);
 }
-
-console.log("Summe aller Werte:", summe);
-let mitttelwert = summe / array.lenght;
-console.log("Der Mittelwert der Zahlen:", mittelwert);
-
-//Aufgabe 2
-
-// Erstellen des Arrays mit den Strings "Susi", "Paula" und "Hans"
-let friends = ["Susi", "Paula", "Hans"];
-
-// Ausgabe des Satzes mit den initialen Freunden
-console.log(`Meine Freunde sind ${friends.join(", ")} und ${friends.pop()}`);
-
-// Hinzufügen von "Sepp" zum Array
-friends.push("Sepp");
-
-// Ausgabe des Satzes mit dem hinzugefügten Freund
-console.log(
-  `Meine Freunde sind ${friends.slice(0, -1).join(", ")} und ${
-    friends[friends.length - 1]
-  }`
-);
+ 
+if (
+  data2Asarray[i]= "Das Leben ist schön"
+) {
+ 
+}
+ 
+//nnööhhccss
+const data0 = "nnööhhccss";
+let data0asarray = data0.split("");
+console.log(data0);
+ 
+for (let i = 0; i <= data0asarray.length; i++)
+    if (
+        data0asarray[i] == "nn" ||
+        data0asarray[i] == "öö" ||
+        data0asarray[i] == "hh" ||
+        data0asarray[i] == "cc" ||
+        data0asarray[i] == "ss"
+    )
+   
+ 
+//Zähle wie oft a oder e oder ö vorkommen
+ 
+const data3 = "Das Leben ist schön";
+let data3Asarray = data3.split("");
+let amount1 = 0;
+ 
+for (let i = 0; i <= data3Asarray.length; i++) {
+  if (
+    data2Asarray[i] == "a" ||
+    data3Asarray[i] == "e" ||
+    data3Asarray[i] == "ö"
+  ) {
+    amount1++;
+  }
+}
+console.log(amount1);
+ 
